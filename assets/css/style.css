@@ -1,0 +1,112 @@
+html,
+body {
+    font-size: 20px;
+    height: 100%;
+    margin: 0;
+}
+
+.wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+
+.header__nav {
+    width: 960px;
+    margin: 0 auto;
+}
+
+
+nav {
+    float: right;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.nav__link {
+    list-style: none;
+    display: inline;
+    padding: 5px;
+
+}
+
+header {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    background-color: #eee;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+p {
+    line-height: 30px;
+}
+
+#profile__img {
+    width: 15%;
+    height: 15%;
+    float: left;
+    margin-right: 30px;
+}
+
+#portfolio__gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 30px;
+}
+
+#portfolio__gallery figure a img {
+    width: 100%;
+    height: auto;
+}
+
+figure {
+    position: relative;
+}
+
+figcaption {
+    margin-top: -20%;
+    text-align: center;
+    padding: 12px 0;
+    width: 100%;
+    background-color: #ccc;
+    text-decoration: none;
+    position: absolute;
+}
+
+input,
+textarea {
+    width: 95%;
+    margin-bottom: 30px;
+}
+
+input {
+    height: 30px;
+}
+
+textarea {
+    height: 200px;
+}
+
+button[type="submit"] {
+    width: 30%;
+    height: 40px;
+}
+
+footer {
+    width: 100%;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+}
+
+.push,
+footer {
+    height: 50px;
+}
